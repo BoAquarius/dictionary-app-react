@@ -4,6 +4,11 @@
   color: white;
 }
 
+.App-body {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .App-logo {
   height: 40px;
   pointer-events: none;
