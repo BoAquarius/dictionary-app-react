@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -8,12 +7,16 @@ export default function App() {
       <div className="container">
         <div className="App-body">
           <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+            <h1>Dictionary</h1>
+            <video loop autoPlay muted className="App-logo">
+              <source src="/Videos/logo2.mp4" type="video/mp4" />
+            </video>
           </header>
           <main>
+            <h2>What word do you want to look up?</h2>
             <Dictionary />
           </main>
-          <footer className="app-footer p-3">
+          <footer className="app-footer">
             <small>
               This app is designed and coded by {""}
               <a

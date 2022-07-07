@@ -1,32 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 .App {
   padding: 30px 0;
-  background-color: #282c34;
+  background-color: #000000;
   color: white;
 }
 
 .App-body {
   max-width: 960px;
+  min-height: 720px;
   margin: 0 auto;
 }
 
 .App-logo {
-  height: 40px;
-  pointer-events: none;
-}
-
-.App .app-footer {
-  text-align: center;
-  color: white;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  height: 280px;
 }
 
 .App-header {
-  margin: 30px 0;
+  margin-top: 30px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,15 +26,47 @@
   font-size: calc(10px + 2vmin);
 }
 
-.App-link {
-  color: #61dafb;
+.App h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 60px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App h3,
+.App h4 {
+  font-family: "Playfair Display", serif;
+  text-align: left;
+}
+
+.App .app-footer {
+  text-align: center;
+  color: #ccc7c7;
+  margin-top: 60px;
+}
+
+.app-footer a {
+  color: hsl(11, 95%, 68%);
+}
+
+@font-face {
+  font-family: "Freakshow";
+  src: local("freakshow"),
+    url(./Fonts/freakshow/Freakshow.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Freakshow";
+  src: local("freakshow"),
+    url(./Fonts/freakshow/Freakshow.ttf) format("truetype");
+}
+
+.App .App-header h1 {
+  font-family: "freakshow";
+  font-size: 52px;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
 }
