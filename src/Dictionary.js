@@ -40,15 +40,14 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <section>
-        <form onSubmit={search}>
-          <input
-            type="search"
-            placeholder="example: beach, sunset, evening..."
-            onChange={handleKeywordChange}
-          />
-        </form>
-      </section>
+      <form onSubmit={search}>
+        <input
+          type="search"
+          placeholder="example: beach, sunset, evening..."
+          onChange={handleKeywordChange}
+        />
+      </form>
+
       <Results results={results} />
       <Photos photos={photos} />
     </div>

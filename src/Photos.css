@@ -4,5 +4,12 @@
 }
 
 .Photos section {
-  padding-bottom: 0!;
+  background: white;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 6px;
+  color: #282c34;
+  margin: 20px 0;
 }
