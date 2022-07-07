@@ -8,7 +8,12 @@ export default function App() {
         <div className="App-body">
           <header className="App-header">
             <h1>Dictionary</h1>
-            <video loop autoPlay muted className="App-logo">
+            <video
+              loop
+              autoPlay
+              muted
+              className="App-logo modal-dialog modal-xl"
+            >
               <source src="/Videos/logo2.mp4" type="video/mp4" />
             </video>
           </header>
