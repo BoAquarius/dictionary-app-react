@@ -12,3 +12,9 @@
   color: #282c34;
   margin: 20px 0;
 }
+
+@media (max-width: 576px) {
+  .Results h3 {
+    font-size: 24px;
+  }
+}
